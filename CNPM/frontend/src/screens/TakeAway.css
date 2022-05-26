@@ -1,0 +1,34 @@
+.user {
+    width: 400px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+  }
+
+  .user label {
+    text-align: left;
+    display: block;
+  }
+
+  .user input, .user textarea{
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+  }
+  .pay {
+    display: flex;
+    margin-top: 30px;
+    background: #f1356d;
+    color: #fff;
+    border: 0;
+    padding: 7px 9.8rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+  
