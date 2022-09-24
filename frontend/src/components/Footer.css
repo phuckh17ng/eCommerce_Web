@@ -1,0 +1,91 @@
+.footer {
+	background-color: rgb(0, 0, 0);
+}
+.footer-accordion-group {
+	display: flex;
+}
+.accordion-group {
+	width: 70%;
+	display: flex;
+	padding: 45px 45px 45px 45px;
+}
+.accordion-group-1,
+.accordion-group-2,
+.accordion-group-3 {
+	width: 100%;
+}
+
+.accordion-group-1 > ul,
+.accordion-group-2 > ul,
+.accordion-group-3 > ul {
+	list-style: none;
+}
+.accordion-group-1 > ul > li,
+.accordion-group-2 > ul > li,
+.accordion-group-3 > ul > li {
+	padding: 7px 0 7px 0;
+	font-size: 12px;
+	color: #7e7e7e;
+	cursor: pointer;
+}
+
+.accordion-group-2 > ul > li:hover,
+.accordion-group-3 > ul > li:hover {
+	color: #fff;
+}
+.accordion-group-1 > ul > li {
+	color: #fff;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.contact-group {
+	display: flex;
+	height: 100%;
+	width: 30%;
+	padding: 45px 45px 45px 45px;
+	justify-content: flex-end;
+}
+
+.contact-group > div {
+	border-radius: 50%;
+	height: 30px;
+	padding: 0 7px 0 7px;
+}
+
+.contact-group > div > img {
+	background-color: #fff;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+.contact-group > div > img:hover {
+	opacity: 1;
+}
+
+.footer-temp-group {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 45px 20px 45px;
+}
+.footer-temp-group-1 {
+	color: #fff;
+	font-size: 10px;
+}
+.footer-temp-group-2 > ul {
+	display: flex;
+	list-style: none;
+}
+.footer-temp-group-2 > ul > li {
+	color: #7e7e7e;
+	font-size: 10px;
+	padding: 0px 7px 0px 7px;
+	cursor: pointer;
+}
+
+.footer-temp-group-2 > ul > li:hover {
+	color: #fff;
+}

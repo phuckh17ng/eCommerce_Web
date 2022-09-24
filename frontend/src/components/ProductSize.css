@@ -1,0 +1,31 @@
+.size {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: auto;
+	margin: 5px 5px 5px 5px;
+	width: 91%;
+	height: 50px;
+	border: 1px solid #dbdbdb;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.size:hover {
+	border: 1px solid #171717;
+}
+
+@media (max-width: 960px) {
+	.size {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: auto;
+		margin: 5px 5px 5px 5px;
+		width: 97%;
+		height: 50px;
+		border: 1px solid #dbdbdb;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+}

@@ -1,0 +1,19 @@
+.homescreen {
+	padding: 70px 65px 0px 65px;
+	background: #fff;
+	height: 100%;
+	width: 100%;
+}
+.homescreen-product {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 960px) {
+	.homescreen {
+		padding: 10px 10px 700px 10px;
+	}
+	.homescreen-product {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}

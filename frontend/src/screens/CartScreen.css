@@ -1,0 +1,218 @@
+.cart {
+	width: 100%;
+	height: 100%;
+}
+
+.cartscreen {
+	display: flex;
+	width: 80%;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	justify-content: space-around;
+}
+
+.cart-bag-screen {
+	width: 63%;
+}
+
+.free-shipping-for-member {
+	border: 1px solid rgb(225, 225, 225);
+}
+
+.free-shipping-for-member-title {
+	color: rgb(250, 84, 0);
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.free-shipping-for-member-signin {
+	color: rgb(88, 88, 88);
+}
+
+.free-shipping-for-member-title,
+.free-shipping-for-member-signin {
+	margin: 15px 15px 15px 15px;
+}
+
+.cart-bag {
+	margin-top: 20px;
+	font-weight: 500;
+	font-size: 22px;
+}
+
+.cart-summary-screen {
+	width: 30%;
+	margin-left: 20px;
+}
+
+.cart-summary-screen > p {
+	margin-bottom: 45px;
+	font-size: 22px;
+}
+
+.promo-code,
+.cart-summary-screen-subtotal,
+.cart-summary-screen-shipping,
+.cart-summary-screen-subtotal,
+.cart-summary-screen-total {
+	display: flex;
+	align-items: center;
+	font-weight: 500;
+	margin: 10px 0 10px 0;
+}
+.cart-summary-screen-subtotal,
+.cart-summary-screen-shipping,
+.cart-summary-screen-subtotal,
+.cart-summary-screen-total {
+	justify-content: space-between;
+}
+
+.cart-summary-screen-total {
+	padding: 20px 0 20px 0;
+	margin-top: 20px;
+	border-top: 1px solid rgb(225, 225, 225);
+	border-bottom: 1px solid rgb(225, 225, 225);
+}
+
+.pay-btn {
+	width: 100%;
+}
+
+.btn-checkout {
+	display: inline-block;
+	vertical-align: top;
+	white-space: nowrap;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	transition: all 0.2s ease 0s;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: rgb(17, 17, 17);
+	color: rgb(255, 255, 255);
+	justify-content: center;
+	width: 100%;
+	padding: 18px 24px;
+	border-radius: 30px;
+	font-weight: 500;
+	font-size: 17px;
+	margin: 21px 0 7px 0;
+}
+
+.btn-checkout:hover {
+	opacity: 0.7;
+}
+
+.btn-paypal {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	vertical-align: top;
+	white-space: nowrap;
+	text-decoration: none;
+	cursor: pointer;
+	transition: all 0.2s ease 0s;
+	background: rgb(241, 241, 241);
+	width: 100%;
+	padding: 18px 24px;
+	border-radius: 30px;
+	border: none;
+	box-shadow: rgb(229 229 229) 0px 1px 0px 0px inset,
+		rgb(229 229 229) -1px 0px 0px 0px inset,
+		rgb(229 229 229) 0px -1px 0px 0px inset,
+		rgb(229 229 229) 1px 0px 0px 0px inset;
+	margin: 7px 0 7px 0;
+}
+
+.btn-paypal:hover {
+	background: #ffffff;
+}
+
+.promo-code {
+	cursor: pointer;
+}
+
+.promo-code-screen {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.promo-code-screen > input {
+	width: 70%;
+	padding: 10px 16px 10px 16px;
+	border: 1px solid rgb(200, 200, 200);
+	border-radius: 10px;
+	font-weight: 600;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+.promo-code-screen > input:focus {
+	outline: none;
+}
+
+.promo-code-screen > button {
+	width: 28%;
+	padding: 10px 0 10px 0;
+	border: 1px solid rgb(200, 200, 200);
+	border-radius: 30px;
+	background-color: #fff;
+	font-size: 17px;
+	color: rgb(200, 200, 200);
+	cursor: pointer;
+	margin: 1px 0 1px 0;
+}
+
+.promo-code-screen > button:hover {
+	box-shadow: rgb(204 204 204) 0px 1.5px 0px 0px inset,
+		rgb(204 204 204) -1.5px 0px 0px 0px inset,
+		rgb(204 204 204) 0px -1.5px 0px 0px inset,
+		rgb(204 204 204) 1.5px 0px 0px 0px inset;
+
+	color: rgb(110, 110, 110);
+}
+
+.cart-bag > ul {
+	display: none;
+}
+.inputPromoCode {
+	display: none;
+}
+
+@media (max-width: 960px) {
+	.cartscreen {
+		flex-direction: column;
+		width: 95%;
+		margin-bottom: 20px;
+	}
+	.cart-bag-screen {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.cart-summary-screen {
+		width: 100%;
+		margin-left: 0;
+	}
+	.cart-bag {
+		order: 1;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 20px;
+		flex-direction: column;
+		align-items: center;
+	}
+	.cart-bag > ul {
+		display: flex;
+		list-style: none;
+	}
+	.cart-bag > ul > li {
+		padding: 13px 5px 7px 5px;
+		font-size: 16px;
+	}
+
+	.free-shipping-for-member {
+		order: 2;
+	}
+}

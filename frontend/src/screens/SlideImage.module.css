@@ -1,0 +1,26 @@
+.container {
+	margin: 0 auto;
+	list-style: none;
+	padding: 0;
+	display: none;
+}
+
+@media (max-width: 960px) {
+	.container {
+		display: inherit;
+	}
+}
+
+.slide > div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	height: 1110px;
+}
+
+.SlideImage_container__gIHk0 {
+	display: none;
+}
